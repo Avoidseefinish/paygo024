@@ -87,9 +87,9 @@ export default function PayIdPaymentPage() {
             <div className="mb-4">
               <p className="text-gray-600">Account Number</p>
               <div className="flex justify-between items-center">
-                <p className="font-bold">1100465587</p>
+                <p className="font-bold">8160005328</p>
                 <button
-                  onClick={() => copyToClipboard("1100465587", "account")}
+                  onClick={() => copyToClipboard("8160005328", "account")}
                   className="bg-orange-400 text-white px-2 py-1 rounded text-sm"
                 >
                   {copiedAccount ? "Copied" : "Copy"}
@@ -99,12 +99,12 @@ export default function PayIdPaymentPage() {
 
             <div className="mb-4">
               <p className="text-gray-600">Bank Name</p>
-              <p className="font-bold">CapitalMetriQ MFB</p>
+              <p className="font-bold">OPAY</p>
             </div>
 
             <div>
               <p className="text-gray-600">Account Name</p>
-              <p className="font-bold>PayGo</p>
+              <p className="font-bold>USMAN MOHAMMED</p>
             </div>
           </div>
 
