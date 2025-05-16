@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #9333ea;
+  --primary-light: #a855f7;
+  --primary-dark: #7e22ce;
+  --background: #f8f0f2;
+  --card: #ffffff;
+  --text: #1a1a1a;
+  --text-muted: #666666;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-purple-600 text-white font-medium py-3 px-4 rounded-full w-full hover:bg-purple-700 transition-colors;
+  }
+
+  .btn-secondary {
+    @apply bg-white text-purple-600 font-medium py-3 px-4 rounded-full w-full border border-purple-600 hover:bg-purple-50 transition-colors;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-3 rounded-full border border-gray-200 focus:outline-none focus:ring-2 focus:ring-purple-500;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-sm p-4;
+  }
+
+  .balance-card {
+    @apply bg-purple-600 text-white rounded-xl shadow-sm p-4;
+  }
+}
